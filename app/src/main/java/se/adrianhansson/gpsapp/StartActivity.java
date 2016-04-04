@@ -102,6 +102,7 @@ public class StartActivity extends AppCompatActivity implements GoogleApiClient.
                     // permission was granted, yay! Do the
                     // contacts-related task you need to do.
                     locationPermissionGoodToGo = true;
+                    LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocationRequest, this);
                     //setCoordinates();
                 } else {
                     // permission denied, boo! Disable the
