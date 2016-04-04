@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">GPSApp</string>
+    <string name="google_app_id">GPSApp</string>
+    <string name="action_settings">Settings</string>
+</resources>
